@@ -1,0 +1,20 @@
+[
+    {
+        "model": "orders.product",
+        "pk": 1,
+        "fields": {
+            "name": "Laptop",
+            "price": "1500.00",
+            "created_at": "2024-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "orders.product",
+        "pk": 2,
+        "fields": {
+            "name": "Smartphone",
+            "price": "800.00",
+            "created_at": "2024-03-01T00:00:00Z"
+        }
+    }
+]

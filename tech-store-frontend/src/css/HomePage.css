@@ -1,0 +1,14 @@
+.custom-navbar {
+  background-color: #007bff; /* Пример использования HEX цвета */
+  color: white; /* Цвет текста */
+}
+
+.custom-navbar .nav-link {
+  color: white; /* Цвет ссылок */
+}
+
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
