@@ -116,6 +116,12 @@ yarn start
 ```sh
 npm install axios react-router-dom jwt-decode
 ```
+
+## [+] PostMan колекції:
+```sh
+ <-> Файл: "Petrenko - CRM Light IT.postman_collection"
+```
+
 ## [+] Demo:
 ![IMG](https://i.imgur.com/gvShsyF.png)
 ![IMG](https://i.imgur.com/mPrXRHu.png)
