@@ -47,7 +47,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-## Крок Налаштування проекту Django:
+## [+] Крок Налаштування проекту Django:
 - Інсталяція Django, Django REST Framework та Django Allauth:
 ```sh
 pip install django djangorestframework django-allauth dj-rest-auth
@@ -58,7 +58,7 @@ pip install django djangorestframework django-allauth dj-rest-auth
 pip install django-cors-headers
 ```
 
-## Для отримання замовлень по даті:
+## [+] Для отримання замовлень по даті:
 ```sh
  <-> Пояснення:
  [+] http://127.0.0.1:8000/api/orders-in-date-range/?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD
@@ -75,15 +75,15 @@ pip install django-cors-headers
 _Посилання:_
 **http://127.0.0.1:8000/api/orders-in-date-range/?start_date=2024-04-01&end_date=2024-05-16**
 
-## Для отримання більш детальної інформації о ендпоінтах в АПІ, потрібно звернутися за посиланням:
+## [+] Для отримання більш детальної інформації о ендпоінтах в АПІ, потрібно звернутися за посиланням:
 **http://127.0.0.1:8000/swagger/**
-Або:
+**Або:**
 **http://127.0.0.1:8000/redoc/**
 
 ## Для отримання PDF файлу з рахунком, потрібно звернутися за цим посилання замість 2, будь-яке ID:
 **http://127.0.0.1:8000/api/invoices/2/pdf/**
 
-## Фронтенд (React):
+## [+] Фронтенд (ReactJS):
 
 - Клонування репозиторію:
 ```sh
@@ -102,7 +102,7 @@ npm start
 yarn start
 ```
 
-## Крок Налаштування проекту React:
+## [+] Крок Налаштування проекту React:
 - Інсталяція залежностей:
 ```sh
 npm install axios react-router-dom jwt-decode
