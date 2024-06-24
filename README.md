@@ -27,6 +27,8 @@ env\Scripts\activate  # Для Windows
 pip install -r requirements.txt
 pip install requests
 pip install drf-yasg
+pip install xhtml2pdf
+pip install reportlab
 ```
 - Застосування міграцій
 ```sh
@@ -85,3 +87,6 @@ npm install axios react-router-dom jwt-decode
 **http://127.0.0.1:8000/swagger/**
 Або:
 **http://127.0.0.1:8000/redoc/**
+
+## Для отримання PDF файлу з рахунком, потрібно звернутися за цим посилання:
+**http://127.0.0.1:8000/api/invoices/<id>/pdf/**
