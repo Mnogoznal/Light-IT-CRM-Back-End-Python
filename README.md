@@ -3,6 +3,8 @@
 
 **Виконав студент: Петренко Олександр, для LightIT**
 
+![Static Badge](https://img.shields.io/badge/CRM?style=social&logo=python)
+
 # Інструкції для запуску проекту:
 
 ## [+] Вимоги:
