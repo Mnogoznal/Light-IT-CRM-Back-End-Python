@@ -113,3 +113,5 @@ npm install axios react-router-dom jwt-decode
 ## [+] Demo:
 ![IMG](https://i.imgur.com/gvShsyF.png)
 ![IMG](https://i.imgur.com/mPrXRHu.png)
+![IMG](https://i.imgur.com/ING0VBN.png)
+![IMG](https://i.imgur.com/SUAWtPT.png)
