@@ -16,6 +16,14 @@ class Product(models.Model):
             return self.price * Decimal('0.8')  # 20% discount
         return self.price
 
+    @property
+    def whithoutdiscounted_price(self):
+        return self.price
+
+    @property
+    def suchen_names(self):
+        return self.name
+
     def __str__(self):
         return self.name
 
@@ -46,6 +54,12 @@ class Invoice(models.Model):
     @property
     def total_amount(self):
         return self.order.product.discounted_price
+
+    def total_names(self):
+        return self.order.product.suchen_names
+
+    def total_whitout_amount(self):
+        return self.order.product.whithoutdiscounted_price
 
     def save(self, *args, **kwargs):
         if not self.due_date:

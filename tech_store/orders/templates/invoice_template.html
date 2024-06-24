@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Invoice</title>
+    <title>CRM System | Invoice</title>
     <style>
         body { font-family: Arial, sans-serif; }
         .invoice-box {
@@ -61,14 +61,16 @@
 </head>
 <body>
     <div class="invoice-box">
-        <h1>Invoice Detail</h1>
+        <h1>CRM System | Invoice Detail:</h1>
         <p>Invoice ID: {{ invoice.id }}</p>
+        <p>Product Name: {{ invoice.total_names }}</p>
         <p>Order ID: {{ invoice.order.id }}</p>
         <p>Issue Date: {{ invoice.issue_date }}</p>
         <p>Due Date: {{ invoice.due_date }}</p>
+        <p>Withou diskont Amount: {{ invoice.total_whitout_amount }}</p>
         <p>Total Amount: {{ invoice.total_amount }}</p>
         <p>Status: {{ invoice.status }}</p>
-        <a href="{% url 'generate_pdf' invoice.id %}">Download PDF</a>
+        <p>CRM System | Tech | LightIT | 2024</p>
     </div>
 </body>
 </html>
