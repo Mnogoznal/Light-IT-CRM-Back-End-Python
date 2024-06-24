@@ -315,6 +315,46 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "GetOrdersInData",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{Token Auth}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/orders-in-date-range/?start_date=2024-04-01&end_date=2024-05-16",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"orders-in-date-range",
+						""
+					],
+					"query": [
+						{
+							"key": "start_date",
+							"value": "2024-04-01"
+						},
+						{
+							"key": "end_date",
+							"value": "2024-05-16"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"event": [

@@ -83,6 +83,9 @@ pip install django-cors-headers
 npm install axios react-router-dom jwt-decode
 ```
 
+## Для отримання замовлень по даті:
+**http://127.0.0.1:8000/api/orders-in-date-range/?start_date=2024-04-01&end_date=2024-05-16**
+
 ## Для отримання більш детальної інформації о ендпоінтах в АПІ, потрібно звернутися за посиланням:
 **http://127.0.0.1:8000/swagger/**
 Або:
