@@ -6,7 +6,7 @@
 ![Static Badge](https://img.shields.io/badge/with%20a%20django-grey?style=for-the-badge&logo=django)
 ![Static Badge](https://img.shields.io/badge/with%20a%20js-grey?style=for-the-badge&logo=javascript)
 
-# Інструкції для запуску проекту:
+# [-!-] Інструкції для запуску проекту:
 
 ## [+] Вимоги:
 
