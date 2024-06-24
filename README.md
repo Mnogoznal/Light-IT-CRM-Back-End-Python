@@ -75,18 +75,21 @@ pip install django-cors-headers
  [+] http://127.0.0.1:8000/api/orders-in-date-range/?start_date=2024-04-01&end_date=2024-05-16
 ```
 
-_Посилання:_
+_Посилання:_ 
 **http://127.0.0.1:8000/api/orders-in-date-range/?start_date=2024-04-01&end_date=2024-05-16**
+
 ![IMG](https://i.imgur.com/nJnhbre.png)
 
 ## [+] Для отримання більш детальної інформації о ендпоінтах в АПІ, потрібно звернутися за посиланням:
+
 **http://127.0.0.1:8000/swagger/**
 **<-> АБО <->**
 **http://127.0.0.1:8000/redoc/**
 
 ## [+] Для отримання PDF файлу з рахунком, потрібно звернутися за цим посилання замість 2, будь-яке ID:
-_Посилання:_
+_Посилання:_ 
 **http://127.0.0.1:8000/api/invoices/2/pdf/**
+<br>
 ![IMG](https://i.imgur.com/uBLxvoC.png)
 
 ## [+] Фронтенд (ReactJS):
