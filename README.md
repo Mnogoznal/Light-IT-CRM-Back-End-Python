@@ -25,7 +25,7 @@ python -m venv env
 source env/bin/activate  # Для Linux/MacOS
 env\Scripts\activate  # Для Windows
 ```
-- Встановлення залежностей:
+- Встановлення Залежностей:
 ```sh
 pip install -r requirements.txt
 pip install requests
@@ -33,21 +33,25 @@ pip install drf-yasg
 pip install xhtml2pdf
 pip install reportlab
 ```
-- Застосування міграцій
+- Застосування Міграцій:
 ```sh
 python manage.py migrate
 ```
-- Завантаженя фікстури:
+- Завантаженя Фікстури:
 ```sh
 python manage.py loaddata products.json
 ```
-- Створення суперкористувача
+- Створення Суперкористувача:
 ```sh
 python manage.py createsuperuser
 ```
-- Запуск сервера
+- Запуск сервера:
 ```sh
 python manage.py runserver
+```
+- Запуск Юніт-Тесту:
+```sh
+python manage.py test
 ```
 
 ## [+] Крок Налаштування проекту Django:
