@@ -59,6 +59,18 @@ pip install django-cors-headers
 ```
 
 ## Для отримання замовлень по даті:
+```sh
+ <-> Пояснення:
+http://127.0.0.1:8000/api/orders-in-date-range/?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD
+
+Де YYYY-MM-DD:
+ <-> Це YYYY - Рік
+ <-> Це MM - Місяць
+ <-> Це DD - День
+
+Приклад:
+http://127.0.0.1:8000/api/orders-in-date-range/?start_date=2024-04-01&end_date=2024-05-16
+```
 **http://127.0.0.1:8000/api/orders-in-date-range/?start_date=2024-04-01&end_date=2024-05-16**
 
 ## Для отримання більш детальної інформації о ендпоінтах в АПІ, потрібно звернутися за посиланням:
