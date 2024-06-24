@@ -110,3 +110,5 @@ yarn start
 ```sh
 npm install axios react-router-dom jwt-decode
 ```
+
+![Lax 2.0 Gif](https://i.imgur.com/XNvvAOv.gif)
