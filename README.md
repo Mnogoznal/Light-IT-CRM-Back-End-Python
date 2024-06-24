@@ -111,7 +111,7 @@ npm start
 yarn start
 ```
 
-## [+] Крок Налаштування проекту React:
+## [+] Крок Налаштування проекту ReactJS:
 - Інсталяція залежностей:
 ```sh
 npm install axios react-router-dom jwt-decode
