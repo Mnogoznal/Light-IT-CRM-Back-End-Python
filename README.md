@@ -9,7 +9,7 @@
 
 **Для запуску проекту вам знадобляться:**
 
-- Python 3.8 або новіше
+- Python 3.12.4 або новіше
 - Node.js 14 або новіше
 - npm або yarn
 
@@ -47,6 +47,28 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
+## Крок Налаштування проекту Django:
+- Інсталяція Django, Django REST Framework та Django Allauth:
+```sh
+pip install django djangorestframework django-allauth dj-rest-auth
+```
+
+- Додайте налаштування CORS у бекенд для взаємодії з фронтендом::
+```sh
+pip install django-cors-headers
+```
+
+## Для отримання замовлень по даті:
+**http://127.0.0.1:8000/api/orders-in-date-range/?start_date=2024-04-01&end_date=2024-05-16**
+
+## Для отримання більш детальної інформації о ендпоінтах в АПІ, потрібно звернутися за посиланням:
+**http://127.0.0.1:8000/swagger/**
+Або:
+**http://127.0.0.1:8000/redoc/**
+
+## Для отримання PDF файлу з рахунком, потрібно звернутися за цим посилання замість 2, будь-яке ID:
+**http://127.0.0.1:8000/api/invoices/2/pdf/**
+
 ## Фронтенд (React):
 
 - Клонування репозиторію:
@@ -66,30 +88,8 @@ npm start
 yarn start
 ```
 
-## Крок Налаштування проекту Django:
-- Інсталяція Django, Django REST Framework та Django Allauth:
-```sh
-pip install django djangorestframework django-allauth dj-rest-auth
-```
-
-- Додайте налаштування CORS у бекенд для взаємодії з фронтендом::
-```sh
-pip install django-cors-headers
-```
-
 ## Крок Налаштування проекту React:
 - Інсталяція залежностей:
 ```sh
 npm install axios react-router-dom jwt-decode
 ```
-
-## Для отримання замовлень по даті:
-**http://127.0.0.1:8000/api/orders-in-date-range/?start_date=2024-04-01&end_date=2024-05-16**
-
-## Для отримання більш детальної інформації о ендпоінтах в АПІ, потрібно звернутися за посиланням:
-**http://127.0.0.1:8000/swagger/**
-Або:
-**http://127.0.0.1:8000/redoc/**
-
-## Для отримання PDF файлу з рахунком, потрібно звернутися за цим посилання замість 2, будь-яке ID:
-**http://127.0.0.1:8000/api/invoices/2/pdf/**
