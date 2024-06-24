@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     # Приложения для создания API
     'rest_framework',
     'rest_framework.authtoken',
+    'drf_yasg',
 
     # Ваши пользовательские приложения
     'orders',

@@ -26,6 +26,7 @@ env\Scripts\activate  # Для Windows
 ```sh
 pip install -r requirements.txt
 pip install requests
+pip install drf-yasg
 ```
 - Застосування міграцій
 ```sh
@@ -79,3 +80,8 @@ pip install django-cors-headers
 ```sh
 npm install axios react-router-dom jwt-decode
 ```
+
+## Для отримання більш детальної інформації о ендпоінтах в АПІ, потрібно звернутися за посиланням:
+**http://127.0.0.1:8000/swagger/**
+Або:
+**http://127.0.0.1:8000/redoc/**
